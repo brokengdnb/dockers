@@ -1,0 +1,14 @@
+services:
+  uptime-kuma:
+    image: "node:20"
+    user: "node"
+    working_dir: ./uptime-kuma/git
+    volumes:
+      - ./uptime-kuma/data:/app/data
+    environment:
+      - NODE_ENV=production
+    ports:
+      # <Host Port>:<Container Port>
+      - 3001:3001
+    command: "npm start"
+    restart: unless-stopped

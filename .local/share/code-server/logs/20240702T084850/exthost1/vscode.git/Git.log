@@ -1,0 +1,44 @@
+2024-07-02 08:48:58.566 [info] Log level: Info
+2024-07-02 08:48:58.566 [info] Validating found git in: "git"
+2024-07-02 08:48:58.566 [info] Using git "2.43.0" from "git"
+2024-07-02 08:48:58.567 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-02 08:48:58.567 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-02 08:48:58.567 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-02 08:48:58.567 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-02 08:48:58.568 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-02 08:48:58.568 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-02 08:48:58.568 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-02 08:48:58.568 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-02 08:50:25.732 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-02 08:50:25.752 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-02 08:50:25.775 [info] Open repository: /home/geenloop/uptime-kuma
+2024-07-02 08:50:25.806 [info] > git config --get commit.template [8ms]
+2024-07-02 08:50:25.834 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-07-02 08:50:25.870 [info] > git status -z -uall [9ms]
+2024-07-02 08:50:25.925 [info] > git config --get commit.template [32ms]
+2024-07-02 08:50:26.044 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [122ms]
+2024-07-02 08:50:26.064 [info] > git status -z -uall [4ms]
+2024-07-02 08:50:26.388 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-02 08:50:29.893 [info] > git config --get commit.template [19ms]
+2024-07-02 08:50:29.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-07-02 08:50:29.952 [info] > git status -z -uall [43ms]
+2024-07-02 08:50:42.071 [info] > git config --get commit.template [27ms]
+2024-07-02 08:50:42.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-07-02 08:50:42.170 [info] > git status -z -uall [77ms]
+2024-07-02 08:51:51.480 [info] > git config --get commit.template [18ms]
+2024-07-02 08:51:51.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-07-02 08:51:51.540 [info] > git status -z -uall [40ms]
+2024-07-02 08:51:56.576 [info] > git config --get commit.template [2ms]
+2024-07-02 08:51:56.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-07-02 08:51:56.667 [info] > git status -z -uall [42ms]
+2024-07-02 08:53:49.394 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-02 08:53:51.212 [info] > git show --textconv :package.json [26ms]
+2024-07-02 08:53:51.217 [info] > git ls-files --stage -- /home/geenloop/uptime-kuma/package.json [8ms]
+2024-07-02 08:53:51.242 [info] > git cat-file -s 567efa1b5a035f570a956f106003039ef1e76376 [8ms]
+2024-07-02 08:54:02.054 [info] > git show --textconv :compose.yaml [20ms]
+2024-07-02 08:54:02.057 [info] > git ls-files --stage -- /home/geenloop/uptime-kuma/compose.yaml [3ms]
+2024-07-02 08:54:02.078 [info] > git cat-file -s 004705a636093004949e017e8548ab9936d0b3ec [3ms]

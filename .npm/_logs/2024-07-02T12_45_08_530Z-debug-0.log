@@ -1,0 +1,12 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/geenloop/.npmrc
+5 silly config:load:file:/usr/etc/npmrc
+6 verbose title npm
+7 verbose argv
+8 verbose logfile logs-max:10 dir:/home/geenloop/.npm/_logs/2024-07-02T12_45_08_530Z-
+9 verbose logfile /home/geenloop/.npm/_logs/2024-07-02T12_45_08_530Z-debug-0.log
+10 verbose exit 1
+11 verbose code 1

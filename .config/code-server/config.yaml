@@ -1,0 +1,4 @@
+bind-addr: 127.0.0.1:8080
+auth: password
+password: c97c9ee3d4b23cd3bfd4057e
+cert: false

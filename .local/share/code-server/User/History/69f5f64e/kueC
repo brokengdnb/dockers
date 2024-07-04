@@ -1,0 +1,10 @@
+# Dockerfile
+
+FROM registry.semaphoreci.com/node:18
+WORKDIR /app/data
+#COPY src/package.json src/package-lock.json .
+RUN npm install --no-update-notifier
+
+
+EXPOSE 3000
+CMD [ "npm", "start"]

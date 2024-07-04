@@ -1,0 +1,23 @@
+name: uptime
+services:
+  app:
+    build:
+      context: ./uptime-kuma/git
+      dockerfile: Dockerfile
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 3001:3001
+  db:
+    image: mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: '!absentee-available-brush'
+      MYSQL_DATABASE: uptimekuma
+      MYSQL_USER: uptime-kuma
+      MYSQL_PASSWORD: badness-oppressed!!
+    volumes:
+      - uptime-db-data:/var/lib/mysql
+    ports:
+      - "3306:3306"
+volumes:
+  uptime-db-data:

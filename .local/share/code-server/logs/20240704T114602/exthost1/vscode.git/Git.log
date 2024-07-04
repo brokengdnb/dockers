@@ -1,0 +1,71 @@
+2024-07-04 11:46:09.463 [info] Log level: Info
+2024-07-04 11:46:09.463 [info] Validating found git in: "git"
+2024-07-04 11:46:09.463 [info] Using git "2.43.0" from "git"
+2024-07-04 11:46:09.481 [info] > git rev-parse --show-toplevel [44ms]
+2024-07-04 11:46:09.481 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:09.503 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-04 11:46:09.503 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:09.582 [info] > git rev-parse --show-toplevel [60ms]
+2024-07-04 11:46:09.582 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:09.596 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 11:46:09.596 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:09.992 [info] > git rev-parse --show-toplevel [353ms]
+2024-07-04 11:46:09.992 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:10.036 [info] > git rev-parse --show-toplevel [19ms]
+2024-07-04 11:46:10.036 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:10.071 [info] > git rev-parse --show-toplevel [12ms]
+2024-07-04 11:46:10.071 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:10.416 [info] > git rev-parse --show-toplevel [321ms]
+2024-07-04 11:46:10.416 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:10.446 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 11:46:10.446 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:46:10.472 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-04 11:46:10.472 [info] fatal: not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-04 11:47:42.253 [info] > git init -b main [20ms]
+2024-07-04 11:47:42.945 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-04 11:47:42.962 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-07-04 11:47:42.993 [info] Open repository: /home/geenloop
+2024-07-04 11:47:43.026 [info] > git config --get commit.template [14ms]
+2024-07-04 11:47:43.028 [info] No remotes found in the git config file.
+2024-07-04 11:47:43.029 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-07-04 11:47:43.337 [info] > git status -z -uall [293ms]
+2024-07-04 11:47:45.814 [info] > git check-ignore -v -z --stdin [2121ms]
+2024-07-04 11:47:45.820 [info] > git config --get commit.template [150ms]
+2024-07-04 11:47:45.836 [info] No remotes found in the git config file.
+2024-07-04 11:47:45.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-07-04 11:47:46.022 [info] > git status -z -uall [166ms]
+2024-07-04 11:47:48.860 [info] > git show --textconv :debase-dockers/docker-compose.yml [28ms]
+2024-07-04 11:47:48.863 [info] > git ls-files --stage -- /home/geenloop/debase-dockers/docker-compose.yml [5ms]
+2024-07-04 11:47:48.932 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n120 -- /home/geenloop/debase-dockers/docker-compose.yml [4ms]
+2024-07-04 11:47:48.933 [info] fatal: your current branch 'main' does not have any commits yet
+2024-07-04 11:47:49.325 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-04 11:47:51.579 [info] No remotes found in the git config file.
+2024-07-04 11:47:51.580 [info] > git config --get commit.template [21ms]
+2024-07-04 11:47:51.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-07-04 11:47:51.779 [info] > git status -z -uall [175ms]
+2024-07-04 11:47:57.015 [info] No remotes found in the git config file.
+2024-07-04 11:47:57.018 [info] > git config --get commit.template [25ms]
+2024-07-04 11:47:57.019 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-07-04 11:47:57.179 [info] > git status -z -uall [134ms]
+2024-07-04 11:47:59.299 [info] > git check-ignore -v -z --stdin [1924ms]
+2024-07-04 11:48:01.776 [info] > git check-ignore -v -z --stdin [20ms]
+2024-07-04 11:48:02.385 [info] > git config --get commit.template [2ms]
+2024-07-04 11:48:02.414 [info] No remotes found in the git config file.
+2024-07-04 11:48:02.415 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-04 11:48:02.608 [info] > git status -z -uall [167ms]
+2024-07-04 11:48:04.542 [info] > git check-ignore -v -z --stdin [29ms]
+2024-07-04 11:48:05.289 [info] > git check-ignore -v -z --stdin [10ms]
+2024-07-04 11:48:07.826 [info] No remotes found in the git config file.
+2024-07-04 11:48:07.827 [info] > git config --get commit.template [28ms]
+2024-07-04 11:48:07.828 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-07-04 11:48:07.998 [info] > git status -z -uall [148ms]

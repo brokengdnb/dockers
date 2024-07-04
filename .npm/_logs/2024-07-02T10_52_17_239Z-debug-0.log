@@ -1,0 +1,195 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/geenloop/.cache/typescript/5.2/.npmrc
+5 silly config:load:file:/home/geenloop/.npmrc
+6 silly config:load:file:/usr/etc/npmrc
+7 verbose title npm install @types/bcryptjs@ts5.2 @types/chroma-js@ts5.2 @types/command-exists@ts5.2 @types/compression@ts5.2 @types/express@ts5.2 @types/gamedig@ts5.2 @types/html-escaper@ts5.2 @types/jsesc@ts5.2 @types/jsonwebtoken@ts5.2 @types/mssql@ts5.2 @types/nodemailer@ts5.2 @types/notp@ts5.2 @types/password-hash@ts5.2 @types/pg@ts5.2 @types/qs@ts5.2 @types/semver@ts5.2 @types/tar@ts5.2 @types/tcp-ping@ts5.2 @types/tough-cookie@ts5.2 @types/ws@ts5.2 @types/bootstrap@ts5.2 @types/core-js@ts5.2 @types/dns2@ts5.2 @types/dompurify@ts5.2 @types/eslint@ts5.2 @types/favico.js@ts5.2 @types/postcss-html@ts5.2 @types/prismjs@ts5.2 @types/qrcode@ts5.2 @types/rollup-plugin-visualizer@ts5.2 @types/wait-on@ts5.2 @types/whatwg-url@ts5.2
+8 verbose argv "install" "--ignore-scripts" "@types/bcryptjs@ts5.2" "@types/chroma-js@ts5.2" "@types/command-exists@ts5.2" "@types/compression@ts5.2" "@types/express@ts5.2" "@types/gamedig@ts5.2" "@types/html-escaper@ts5.2" "@types/jsesc@ts5.2" "@types/jsonwebtoken@ts5.2" "@types/mssql@ts5.2" "@types/nodemailer@ts5.2" "@types/notp@ts5.2" "@types/password-hash@ts5.2" "@types/pg@ts5.2" "@types/qs@ts5.2" "@types/semver@ts5.2" "@types/tar@ts5.2" "@types/tcp-ping@ts5.2" "@types/tough-cookie@ts5.2" "@types/ws@ts5.2" "@types/bootstrap@ts5.2" "@types/core-js@ts5.2" "@types/dns2@ts5.2" "@types/dompurify@ts5.2" "@types/eslint@ts5.2" "@types/favico.js@ts5.2" "@types/postcss-html@ts5.2" "@types/prismjs@ts5.2" "@types/qrcode@ts5.2" "@types/rollup-plugin-visualizer@ts5.2" "@types/wait-on@ts5.2" "@types/whatwg-url@ts5.2" "--save-dev" "--user-agent" "typesInstaller/5.2.2"
+9 verbose logfile logs-max:10 dir:/home/geenloop/.npm/_logs/2024-07-02T10_52_17_239Z-
+10 verbose logfile /home/geenloop/.npm/_logs/2024-07-02T10_52_17_239Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/@types%2fjsesc 449ms (cache revalidated)
+14 http fetch GET 200 https://registry.npmjs.org/@types%2fcompression 456ms (cache revalidated)
+15 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonwebtoken 458ms (cache revalidated)
+16 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 463ms (cache revalidated)
+17 http fetch GET 200 https://registry.npmjs.org/@types%2ftough-cookie 465ms (cache revalidated)
+18 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemailer 482ms (cache revalidated)
+19 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 510ms (cache revalidated)
+20 http fetch GET 200 https://registry.npmjs.org/@types%2fdompurify 497ms (cache revalidated)
+21 http fetch GET 200 https://registry.npmjs.org/@types%2fsemver 507ms (cache revalidated)
+22 http fetch GET 200 https://registry.npmjs.org/@types%2fpg 512ms (cache revalidated)
+23 http fetch GET 200 https://registry.npmjs.org/@types%2fcore-js 509ms (cache revalidated)
+24 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 511ms (cache revalidated)
+25 http fetch GET 200 https://registry.npmjs.org/@types%2fws 520ms (cache revalidated)
+26 http fetch GET 200 https://registry.npmjs.org/@types%2fqrcode 518ms (cache revalidated)
+27 http fetch GET 200 https://registry.npmjs.org/@types%2fchroma-js 567ms (cache revalidated)
+28 http fetch GET 200 https://registry.npmjs.org/@types%2fwait-on 541ms (cache revalidated)
+29 http fetch GET 200 https://registry.npmjs.org/@types%2feslint 605ms (cache revalidated)
+30 http fetch GET 200 https://registry.npmjs.org/@types%2fwhatwg-url 608ms (cache revalidated)
+31 http fetch GET 200 https://registry.npmjs.org/@types%2fprismjs 697ms (cache revalidated)
+32 http fetch GET 200 https://registry.npmjs.org/@types%2fhtml-escaper 756ms (cache revalidated)
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fmssql 912ms (cache revalidated)
+34 http fetch GET 200 https://registry.npmjs.org/@types%2fbcryptjs 938ms (cache revalidated)
+35 http fetch GET 200 https://registry.npmjs.org/@types%2ftar 1046ms (cache revalidated)
+36 http fetch GET 200 https://registry.npmjs.org/@types%2fnotp 1156ms (cache revalidated)
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fdns2 1226ms (cache revalidated)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fcommand-exists 1460ms (cache revalidated)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fpassword-hash 1460ms (cache revalidated)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fgamedig 1480ms (cache revalidated)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fpostcss-html 1511ms (cache revalidated)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2ftcp-ping 1560ms (cache revalidated)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2ffavico.js 1622ms (cache revalidated)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2frollup-plugin-visualizer 1673ms (cache revalidated)
+45 silly idealTree buildDeps
+46 silly fetch manifest @types/bcryptjs@2.4.6
+47 silly fetch manifest @types/bootstrap@5.2.10
+48 silly fetch manifest @types/chroma-js@2.4.4
+49 silly fetch manifest @types/command-exists@1.2.3
+50 silly fetch manifest @types/compression@1.7.5
+51 silly fetch manifest @types/core-js@2.5.8
+52 silly fetch manifest @types/dns2@2.0.9
+53 silly fetch manifest @types/dompurify@3.0.5
+54 silly fetch manifest @types/eslint@8.56.10
+55 silly fetch manifest @types/express@4.17.21
+56 silly fetch manifest @types/favico.js@0.0.32
+57 silly fetch manifest @types/gamedig@5.0.3
+58 silly fetch manifest @types/html-escaper@3.0.2
+59 silly fetch manifest @types/jsesc@3.0.3
+60 silly fetch manifest @types/jsonwebtoken@9.0.6
+61 silly fetch manifest @types/mssql@9.1.5
+62 silly fetch manifest @types/nodemailer@6.4.15
+63 silly fetch manifest @types/notp@2.0.5
+64 silly fetch manifest @types/password-hash@1.2.24
+65 silly fetch manifest @types/pg@8.11.6
+66 silly fetch manifest @types/postcss-html@1.5.3
+67 silly fetch manifest @types/prismjs@1.26.4
+68 silly fetch manifest @types/qrcode@1.5.5
+69 silly fetch manifest @types/qs@6.9.15
+70 silly fetch manifest @types/rollup-plugin-visualizer@4.2.4
+71 silly fetch manifest @types/semver@7.5.8
+72 silly fetch manifest @types/tar@6.1.13
+73 silly fetch manifest @types/tcp-ping@0.1.5
+74 silly fetch manifest @types/tough-cookie@4.0.5
+75 silly fetch manifest @types/wait-on@5.3.4
+76 silly fetch manifest @types/whatwg-url@11.0.5
+77 silly fetch manifest @types/ws@8.5.10
+78 silly placeDep ROOT @types/bcryptjs@2.4.6 REPLACE for:  want: 2.4.6
+79 silly placeDep ROOT @types/bootstrap@5.2.10 REPLACE for:  want: 5.2.10
+80 silly placeDep ROOT @types/chroma-js@2.4.4 REPLACE for:  want: 2.4.4
+81 silly placeDep ROOT @types/command-exists@1.2.3 REPLACE for:  want: 1.2.3
+82 silly placeDep ROOT @types/compression@1.7.5 REPLACE for:  want: 1.7.5
+83 silly placeDep ROOT @types/core-js@2.5.8 REPLACE for:  want: 2.5.8
+84 silly placeDep ROOT @types/dns2@2.0.9 REPLACE for:  want: 2.0.9
+85 silly placeDep ROOT @types/dompurify@3.0.5 REPLACE for:  want: 3.0.5
+86 silly placeDep ROOT @types/eslint@8.56.10 REPLACE for:  want: 8.56.10
+87 silly placeDep ROOT @types/express@4.17.21 REPLACE for:  want: 4.17.21
+88 silly placeDep ROOT @types/favico.js@0.0.32 REPLACE for:  want: 0.0.32
+89 silly placeDep ROOT @types/gamedig@5.0.3 REPLACE for:  want: 5.0.3
+90 silly placeDep ROOT @types/html-escaper@3.0.2 REPLACE for:  want: 3.0.2
+91 silly placeDep ROOT @types/jsesc@3.0.3 REPLACE for:  want: 3.0.3
+92 silly placeDep ROOT @types/jsonwebtoken@9.0.6 REPLACE for:  want: 9.0.6
+93 silly placeDep ROOT @types/mssql@9.1.5 REPLACE for:  want: 9.1.5
+94 silly placeDep ROOT @types/nodemailer@6.4.15 REPLACE for:  want: 6.4.15
+95 silly placeDep ROOT @types/notp@2.0.5 REPLACE for:  want: 2.0.5
+96 silly placeDep ROOT @types/password-hash@1.2.24 REPLACE for:  want: 1.2.24
+97 silly placeDep ROOT @types/pg@8.11.6 REPLACE for:  want: 8.11.6
+98 silly placeDep ROOT @types/postcss-html@1.5.3 REPLACE for:  want: 1.5.3
+99 silly placeDep ROOT @types/prismjs@1.26.4 REPLACE for:  want: 1.26.4
+100 silly placeDep ROOT @types/qrcode@1.5.5 REPLACE for:  want: 1.5.5
+101 silly placeDep ROOT @types/qs@6.9.15 REPLACE for:  want: 6.9.15
+102 silly placeDep ROOT @types/rollup-plugin-visualizer@4.2.4 REPLACE for:  want: 4.2.4
+103 silly placeDep ROOT @types/semver@7.5.8 REPLACE for:  want: 7.5.8
+104 silly placeDep ROOT @types/tar@6.1.13 REPLACE for:  want: 6.1.13
+105 silly placeDep ROOT @types/tcp-ping@0.1.5 REPLACE for:  want: 0.1.5
+106 silly placeDep ROOT @types/tough-cookie@4.0.5 REPLACE for:  want: 4.0.5
+107 silly placeDep ROOT @types/wait-on@5.3.4 REPLACE for:  want: 5.3.4
+108 silly placeDep ROOT @types/whatwg-url@11.0.5 REPLACE for:  want: 11.0.5
+109 silly placeDep ROOT @types/ws@8.5.10 REPLACE for:  want: 8.5.10
+110 silly reify moves {}
+111 silly audit bulk request {
+111 silly audit   '@popperjs/core': [ '2.11.8' ],
+111 silly audit   '@types/body-parser': [ '1.19.5' ],
+111 silly audit   '@types/connect': [ '3.4.38' ],
+111 silly audit   '@types/debug': [ '4.1.12' ],
+111 silly audit   '@types/estree': [ '1.0.5' ],
+111 silly audit   '@types/express-serve-static-core': [ '4.19.5' ],
+111 silly audit   '@types/hoek': [ '4.1.7' ],
+111 silly audit   '@types/http-errors': [ '2.0.4' ],
+111 silly audit   '@types/json-schema': [ '7.0.15' ],
+111 silly audit   '@types/lodash': [ '4.17.6' ],
+111 silly audit   '@types/mime': [ '1.3.5' ],
+111 silly audit   '@types/ms': [ '0.7.34' ],
+111 silly audit   '@types/node': [ '20.14.9' ],
+111 silly audit   '@types/radius': [ '0.0.33' ],
+111 silly audit   '@types/range-parser': [ '1.2.7' ],
+111 silly audit   '@types/send': [ '0.17.4' ],
+111 silly audit   '@types/serve-static': [ '1.15.7' ],
+111 silly audit   '@types/sqlite3': [ '3.1.11' ],
+111 silly audit   '@types/ssh2-streams': [ '0.1.12' ],
+111 silly audit   '@types/supports-color': [ '8.1.3' ],
+111 silly audit   '@types/tedious': [ '4.0.14' ],
+111 silly audit   '@types/trusted-types': [ '2.0.7' ],
+111 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+111 silly audit   fsevents: [ '2.3.3' ],
+111 silly audit   minipass: [ '4.2.8' ],
+111 silly audit   nanoid: [ '3.3.7' ],
+111 silly audit   obuf: [ '1.1.2' ],
+111 silly audit   'pg-int8': [ '1.0.1' ],
+111 silly audit   'pg-numeric': [ '1.0.2' ],
+111 silly audit   'pg-protocol': [ '1.6.1' ],
+111 silly audit   'pg-types': [ '4.0.2' ],
+111 silly audit   picocolors: [ '1.0.1' ],
+111 silly audit   postcss: [ '8.4.39' ],
+111 silly audit   'postgres-array': [ '3.0.2' ],
+111 silly audit   'postgres-bytea': [ '3.0.0' ],
+111 silly audit   'postgres-date': [ '2.1.0' ],
+111 silly audit   'postgres-interval': [ '3.0.0' ],
+111 silly audit   'postgres-range': [ '1.1.4' ],
+111 silly audit   rollup: [ '2.79.1' ],
+111 silly audit   'source-map-js': [ '1.2.0' ],
+111 silly audit   tarn: [ '3.0.2' ],
+111 silly audit   'types-registry': [ '0.1.685' ],
+111 silly audit   'undici-types': [ '5.26.5' ],
+111 silly audit   '@types/bcryptjs': [ '2.4.6' ],
+111 silly audit   '@types/bootstrap': [ '5.2.10' ],
+111 silly audit   '@types/chroma-js': [ '2.4.4' ],
+111 silly audit   '@types/command-exists': [ '1.2.3' ],
+111 silly audit   '@types/compression': [ '1.7.5' ],
+111 silly audit   '@types/core-js': [ '2.5.8' ],
+111 silly audit   '@types/dns2': [ '2.0.9' ],
+111 silly audit   '@types/dompurify': [ '3.0.5' ],
+111 silly audit   '@types/eslint': [ '8.56.10' ],
+111 silly audit   '@types/express': [ '4.17.21' ],
+111 silly audit   '@types/favico.js': [ '0.0.32' ],
+111 silly audit   '@types/gamedig': [ '5.0.3' ],
+111 silly audit   '@types/html-escaper': [ '3.0.2' ],
+111 silly audit   '@types/jsesc': [ '3.0.3' ],
+111 silly audit   '@types/jsonwebtoken': [ '9.0.6' ],
+111 silly audit   '@types/mssql': [ '9.1.5' ],
+111 silly audit   '@types/nodemailer': [ '6.4.15' ],
+111 silly audit   '@types/notp': [ '2.0.5' ],
+111 silly audit   '@types/password-hash': [ '1.2.24' ],
+111 silly audit   '@types/pg': [ '8.11.6' ],
+111 silly audit   '@types/postcss-html': [ '1.5.3' ],
+111 silly audit   '@types/prismjs': [ '1.26.4' ],
+111 silly audit   '@types/qrcode': [ '1.5.5' ],
+111 silly audit   '@types/qs': [ '6.9.15' ],
+111 silly audit   '@types/rollup-plugin-visualizer': [ '4.2.4' ],
+111 silly audit   '@types/semver': [ '7.5.8' ],
+111 silly audit   '@types/tar': [ '6.1.13' ],
+111 silly audit   '@types/tcp-ping': [ '0.1.5' ],
+111 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+111 silly audit   '@types/wait-on': [ '5.3.4' ],
+111 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+111 silly audit   '@types/ws': [ '8.5.10' ]
+111 silly audit }
+112 verbose reify failed optional dependency /home/geenloop/.cache/typescript/5.2/node_modules/fsevents
+113 silly reify mark deleted [ '/home/geenloop/.cache/typescript/5.2/node_modules/fsevents' ]
+114 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 203ms
+115 silly audit report {}
+116 silly ADD
+117 verbose exit 0
+118 info ok

@@ -1,0 +1,18 @@
+2024-07-02 08:43:10.356 [info] 
+
+
+
+
+2024-07-02 08:43:10.356 [info] Extension host agent started.
+2024-07-02 08:43:10.360 [info] Started initializing default profile extensions in extensions installation folder. file:///home/geenloop/.local/share/code-server/extensions
+2024-07-02 08:43:10.401 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/geenloop/.local/share/code-server/extensions
+2024-07-02 08:43:12.124 [info] [127.0.0.1][b8601e4a][ManagementConnection] New connection established.
+2024-07-02 08:43:13.130 [info] [127.0.0.1][4c93a79e][ExtensionHostConnection] New connection established.
+2024-07-02 08:43:13.438 [info] [127.0.0.1][4c93a79e][ExtensionHostConnection] <272> Launched Extension Host Process.
+2024-07-02 08:44:04.424 [info] Getting Manifest... ms-azuretools.vscode-docker
+2024-07-02 08:44:05.338 [info] Installing extension: ms-azuretools.vscode-docker
+2024-07-02 08:44:07.419 [info] Extension signature verification is not done: ms-azuretools.vscode-docker
+2024-07-02 08:44:07.718 [info] Extracted extension to file:///home/geenloop/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal: ms-azuretools.vscode-docker
+2024-07-02 08:44:07.727 [info] Renamed to /home/geenloop/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal
+2024-07-02 08:44:07.734 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2024-07-02 08:44:07.743 [info] Extension installed successfully: ms-azuretools.vscode-docker

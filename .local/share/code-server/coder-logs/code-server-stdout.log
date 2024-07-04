@@ -1,0 +1,88 @@
+[2024-07-02T08:42:57.967Z] info  code-server 4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49
+[2024-07-02T08:42:57.970Z] info  Using user-data-dir /home/geenloop/.local/share/code-server
+[2024-07-02T08:42:58.013Z] info  Using config file /home/geenloop/.config/code-server/config.yaml
+[2024-07-02T08:42:58.014Z] info  HTTP server listening on http://127.0.0.1:13337/
+[2024-07-02T08:42:58.014Z] info    - Authentication is disabled
+[2024-07-02T08:42:58.014Z] info    - Not serving HTTPS
+[2024-07-02T08:42:58.015Z] info  Session server listening on /home/geenloop/.local/share/code-server/code-server-ipc.sock
+[08:43:10] 
+
+
+
+
+[08:43:10] Extension host agent started.
+[08:43:10] Started initializing default profile extensions in extensions installation folder. file:///home/geenloop/.local/share/code-server/extensions
+[08:43:10] Completed initializing default profile extensions in extensions installation folder. file:///home/geenloop/.local/share/code-server/extensions
+[08:43:12] [127.0.0.1][b8601e4a][ManagementConnection] New connection established.
+[08:43:13] [127.0.0.1][4c93a79e][ExtensionHostConnection] New connection established.
+[08:43:13] [127.0.0.1][4c93a79e][ExtensionHostConnection] <272> Launched Extension Host Process.
+[08:44:04] Getting Manifest... ms-azuretools.vscode-docker
+[08:44:05] Installing extension: ms-azuretools.vscode-docker
+[08:44:07] Extension signature verification is not done: ms-azuretools.vscode-docker
+[08:44:07] Extracted extension to file:///home/geenloop/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal: ms-azuretools.vscode-docker
+[08:44:07] Renamed to /home/geenloop/.local/share/code-server/extensions/ms-azuretools.vscode-docker-1.29.1-universal
+[08:44:07] Extracting extension completed. ms-azuretools.vscode-docker
+[08:44:07] Extension installed successfully: ms-azuretools.vscode-docker
+[2024-07-02T08:48:39.130Z] info  code-server 4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49
+[2024-07-02T08:48:39.132Z] info  Using user-data-dir /home/geenloop/.local/share/code-server
+[2024-07-02T08:48:39.168Z] info  Using config file /home/geenloop/.config/code-server/config.yaml
+[2024-07-02T08:48:39.168Z] info  HTTP server listening on http://127.0.0.1:13337/
+[2024-07-02T08:48:39.168Z] info    - Authentication is disabled
+[2024-07-02T08:48:39.168Z] info    - Not serving HTTPS
+[2024-07-02T08:48:39.169Z] info  Session server listening on /home/geenloop/.local/share/code-server/code-server-ipc.sock
+[08:48:50] 
+
+
+
+
+[08:48:50] Extension host agent started.
+[08:48:53] [127.0.0.1][dc971e69][ManagementConnection] New connection established.
+[08:48:54] [127.0.0.1][14628c1b][ExtensionHostConnection] New connection established.
+[08:48:54] [127.0.0.1][14628c1b][ExtensionHostConnection] <252> Launched Extension Host Process.
+[2024-07-02T08:57:59.198Z] info  code-server 4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49
+[2024-07-02T08:57:59.200Z] info  Using user-data-dir /home/geenloop/.local/share/code-server
+[2024-07-02T08:57:59.232Z] info  Using config file /home/geenloop/.config/code-server/config.yaml
+[2024-07-02T08:57:59.233Z] info  HTTP server listening on http://127.0.0.1:13337/
+[2024-07-02T08:57:59.234Z] info    - Authentication is disabled
+[2024-07-02T08:57:59.234Z] info    - Not serving HTTPS
+[2024-07-02T08:57:59.234Z] info  Session server listening on /home/geenloop/.local/share/code-server/code-server-ipc.sock
+[08:58:30] 
+
+
+
+
+[08:58:30] Extension host agent started.
+[08:58:31] [127.0.0.1][5393d0b1][ManagementConnection] New connection established.
+[08:58:32] [127.0.0.1][f0235410][ExtensionHostConnection] New connection established.
+[08:58:32] [127.0.0.1][f0235410][ExtensionHostConnection] <284> Launched Extension Host Process.
+[10:38:19] [127.0.0.1][5393d0b1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:38:20] [127.0.0.1][f0235410][ExtensionHostConnection] <284> Extension Host Process exited with code: 0, signal: null.
+[10:38:21] [127.0.0.1][676fae4e][ManagementConnection] New connection established.
+[10:38:22] [127.0.0.1][4e4fc907][ExtensionHostConnection] New connection established.
+[10:38:22] [127.0.0.1][4e4fc907][ExtensionHostConnection] <31331> Launched Extension Host Process.
+[12:45:02] [127.0.0.1][3618e5bc][ManagementConnection] New connection established.
+[12:45:02] [127.0.0.1][e34a9c00][ExtensionHostConnection] New connection established.
+[12:45:03] [127.0.0.1][e34a9c00][ExtensionHostConnection] <65915> Launched Extension Host Process.
+[12:45:40] [127.0.0.1][3618e5bc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:45:40] [127.0.0.1][e34a9c00][ExtensionHostConnection] <65915> Extension Host Process exited with code: 0, signal: null.
+[17:45:18] [127.0.0.1][676fae4e][ManagementConnection] The client has reconnected.
+[17:45:21] [127.0.0.1][4e4fc907][ExtensionHostConnection] The client has reconnected.
+[20:52:53] [127.0.0.1][4e4fc907][ExtensionHostConnection] <31331> Extension Host Process exited with code: 0, signal: null.
+[06:13:40] [127.0.0.1][676fae4e][ManagementConnection] The client has reconnected.
+[06:39:18] [127.0.0.1][676fae4e][ManagementConnection] The client has reconnected.
+[2024-07-04T11:45:59.098Z] info  code-server 4.19.1 0c98611e6b43803a9d5dba222d7023b569abfb49
+[2024-07-04T11:45:59.100Z] info  Using user-data-dir /home/geenloop/.local/share/code-server
+[2024-07-04T11:45:59.156Z] info  Using config file /home/geenloop/.config/code-server/config.yaml
+[2024-07-04T11:45:59.156Z] info  HTTP server listening on http://127.0.0.1:13337/
+[2024-07-04T11:45:59.157Z] info    - Authentication is disabled
+[2024-07-04T11:45:59.157Z] info    - Not serving HTTPS
+[2024-07-04T11:45:59.157Z] info  Session server listening on /home/geenloop/.local/share/code-server/code-server-ipc.sock
+[11:46:02] 
+
+
+
+
+[11:46:03] Extension host agent started.
+[11:46:04] [127.0.0.1][73c609e7][ManagementConnection] New connection established.
+[11:46:05] [127.0.0.1][b3bade43][ExtensionHostConnection] New connection established.
+[11:46:05] [127.0.0.1][b3bade43][ExtensionHostConnection] <226> Launched Extension Host Process.
